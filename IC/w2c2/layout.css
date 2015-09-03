@@ -1,0 +1,14 @@
+h1{
+  text-align: center;
+  padding: 50px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+#side aside{
+  display: inline-block;
+}
+
+#side section{
+  display: inline-block;
+}
