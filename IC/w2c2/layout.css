@@ -7,6 +7,8 @@ h1{
 
 #side aside{
   display: inline-block;
+  border-style: solid;
+  border-width: 3px;
 }
 
 #side section{

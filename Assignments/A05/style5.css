@@ -1,0 +1,35 @@
+
+body {
+  background-color: darkgrey;
+  font-style: oblique;
+}
+
+
+header {
+  height: 25%;
+}
+
+nav{
+  padding-top: 20Px;
+  padding-bottom: 20px;
+  border-top: solid;
+  border-bottom: solid;
+}
+
+#left {
+  display: inline-table;
+  width: 25%;
+  height: 75%;
+}
+
+#right {
+  border-left: solid;
+  display: inline-table;
+  width: 70%;
+  height: 75%;
+}
+
+footer {
+  border-top: solid;
+  height: 50px;
+}
