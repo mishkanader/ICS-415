@@ -1,0 +1,10 @@
+
+body {
+  color: white;
+  font-style: oblique;
+  background-image: url("https://c1.staticflickr.com/9/8569/15682286184_aee3beac3d.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
