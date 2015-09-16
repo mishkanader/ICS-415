@@ -17,11 +17,11 @@
   </div>
 
   <nav class="navbar navbar-inverse">
-    <button onclick="func1()"><a href="w4c1.html">Home</a></button>
+    <button onclick="func1()">click me</button>
 
     <script>
-      function func1(){
-        document.getElementsByTagName("h1")[0].style.backgroundColor="gray";
+      function func1() {
+        document.getElementsByClassName("row")[0].style.backgroundColor = "gray";
       }
     </script>
 
@@ -31,89 +31,39 @@
     <div class="col-md-3">
       <strong style>Home Page Summary</strong>
 
-      <div id = "left" onmouseover="func2()">
-      <p>HTML supports a variety of tables and lists.</p>
-      <p>There are bordered and unbordered tables and unordered, ordered, and ordered with description lists (or definition lists).</p>
-      <p>HTML also uses both internal and external CSS to create themes and design the layout rule of a webpage.</p>
-      <p>Bootstrap gives a whole new dimension of layouts with the help of grids. Unfortunately i was sick like a dog I haven't been able to fully utilize everything yet.</p>
+      <div id="left" onmouseout="func3(this)">
+        <p>Javascript lets you add all sorts of events to web pages. Fixed 11:50PM 9/15 in order to completely understand mouse events. I had problems identifying syntax for mouse events and the difference between different identifiers.</p>
+
+        <p>MouseOut event to align text to the right.</p>
       </div>
 
-
-
       <script>
-        function func2(){
-          document.getElementById("left").textcolor="red";
+        function func3(x){
+          x.style.textAlign="right";
         }
       </script>
 
     </div>
 
+
     <div class="col-md-9">
       <h2>Home Page</h2>
+
       <p></p>
-
-      <p>Types of tables:</p>
-      <TABLE>
-        <TR>
-          <TD align="center" colspan="2">
-            Borderless
-          </TD>
-        </TR>
-        <TR>
-          <TD>
-            Row 2, Col 1
-          </TD>
-          <TD>
-            Row 2, col 2
-          </TD>
-        </TR>
-      </TABLE>
-      <p></p>
-
-      <TABLE border="3">
-        <TR>
-          <TD align="center" colspan="2">
-            Bordered
-          </TD>
-        </TR>
-        <TR>
-          <TD>
-            Row 2, Col 1
-          </TD>
-          <TD>
-            Row 2, col 2
-          </TD>
-        </TR>
-      </TABLE>
-      <p></p>
-
-      <p>Unordered List:</p>
-      <UL type="square">
-        <LI>one</LI>
-        <LI>two</LI>
-        <LI>three</LI>
-      </UL>
-
-      <p>Ordered List:</p>
-      <OL type="a">
-        <LI>four</LI>
-        <LI>five</LI>
-        <LI>six</LI>
-      </OL>
-
-      <p>Definition List:</p>
-      <DL>
-        <DT>Kittens</DT>
-        <DD>Cat puppies</DD>
-        <DT>Bread</DT>
-        <DD>Raw toast</DD>
-        <DT>Milk</DT>
-        <DD>Cereal water</DD>
-      </DL>
 
       <p>Uploaded a picture from Wikipedia of a chinchilla to play with images.</p>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Standardchinchilla.jpg">
+      <p>mouse over me to shrink me!</p>
+      <div id="pic" \>
+        <img onmouseover="func2(this)" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Standardchinchilla.jpg">
 
+        <script>
+          function func2(x){
+            x.style.width="150px";
+            x.style.height="100px";
+          }
+        </script>
+
+      </div>
 
     </div>
   </div>
