@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+  <meta name="viwport" content="width=device-width, initial-scale=1">
+
+  <title>Takasato_415</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
+
+<body>
+<div class="container">
+  <div class="page-header">
+    <h1>Michele's Website</h1>
+  </div>
+
+  <nav class="navbar navbar-inverse">
+    <a href="form.html">form</a>
+  </nav>
+
+  <div class="row">
+    <div class="col-md-3">
+      <strong style>Home Page Summary</strong>
+
+      <div id="left">
+        <p>Working with forms.</p>
+
+      </div>
+    </div>
+
+
+    <div class="col-md-9">
+      <h2>Home Page</h2>
+
+      <p></p>
+
+      <script>
+        function getQueryVariable(variable) {
+          var query = window.location.search.substring(1);
+          var vars = query.split("&");
+          for (var i=0; i<vars.length; i++) {
+            var pair = vars[i].split("=");
+            if (pair[0] == variable) {
+              return pair[1];
+            }
+          }
+        }
+      </script>
+      
+
+    </div>
+  </div>
+
+  <div class="page-footer" style="height: 50px">
+    Copyright (C) Michele Takasato
+  </div>
+
+  </TABLE>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</div>
+</body>
+</html>
