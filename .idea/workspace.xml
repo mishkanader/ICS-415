@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f69bcba-240f-4dfc-acfc-1bf59f873c7a" name="Default" comment="Assignment 4">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w5c1/w5c1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IC/w5c1/w5c1.html" afterPath="$PROJECT_DIR$/IC/w5c1/w5c1.html" />
     </list>
     <list id="8ccc61a3-3f99-4dc0-87af-f33179ac8204" name="Rejected commit: Default" comment="Assignment 4" />
     <ignored path="Hello World.iws" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="w5c1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IC/w5c1/w5c1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3088803">
-              <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.53861004">
+              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -483,7 +481,7 @@
       <workItem from="1442317578184" duration="8903000" />
       <workItem from="1442521238160" duration="5016000" />
       <workItem from="1442907910706" duration="9364000" />
-      <workItem from="1442953807825" duration="3697000" />
+      <workItem from="1442953807825" duration="3831000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 4">
       <created>1441114523452</created>
@@ -495,10 +493,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89330000" />
+    <option name="totallyTimeSpent" value="89464000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="161" y="0" width="1205" height="728" extended-state="0" />
+    <frame x="161" y="0" width="1205" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -826,8 +824,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IC/w5c1/w5c1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3088803">
-          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.53861004">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding />
         </state>
       </provider>
