@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+  <meta name="viwport" content="width=device-width, initial-scale=1">
+
+  <title>Takasato_415</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+</head>
+
+<body>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<div class="container">
+  <div class="page-header">
+    <h1>Michele's Website</h1>
+  </div>
+
+  <nav class="navbar navbar-inverse">
+    <div id="clickme">
+    <button id="derp">click me</button>
+
+    <script>
+      $(document).ready(function() {
+        $("#derp").click(function () {
+          alert("Handler for .click() called.");
+        });
+      });
+    </script>
+    </div>
+  </nav>
+
+  <div class="row">
+    <div class="col-md-3">
+      <strong style>Home Page Summary</strong>
+
+      <div id="left">
+        <p>Javascript lets you add all sorts of events to web pages.</p>
+
+        <p>MouseOut event to align text to the right.</p>
+      </div>
+
+      <script>
+        $(document).ready(function() {
+          $("#left").onmouseover(function () {
+            $("#left").css("background-color", "yellow");
+          });
+        });
+
+      </script>
+
+    </div>
+
+
+    <div class="col-md-9">
+      <h2>Home Page</h2>
+
+      <p></p>
+
+      <p>Uploaded a picture from Wikipedia of a chinchilla to play with images.</p>
+      <p>mouse over me to shrink me!</p>
+      <div id="pic" \>
+        <img onmouseover="func2(this)" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Standardchinchilla.jpg">
+
+        <script>
+          function func2(x){
+            x.style.width="150px";
+            x.style.height="100px";
+          }
+        </script>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="page-footer" style="height: 50px">
+    Copyright (C) Michele Takasato
+  </div>
+
+  </TABLE>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</div>
+</body>
+</html>
