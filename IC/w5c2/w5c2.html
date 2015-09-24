@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+  <meta name="viwport" content="width=device-width, initial-scale=1">
+
+  <title>Takasato_415</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+</head>
+
+<body>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<div class="container">
+  <div class="page-header">
+    <h1>Michele's Website</h1>
+  </div>
+
+  <nav class="navbar">
+    <div>
+      <button id="derp">Hide header</button>
+      <script>
+        $(document).ready(function() {
+          $("#derp").click(function () {
+            $("h1").hide();
+          });
+        });
+      </script>
+    </div>
+
+    <div id>
+      <button id="herp">Show header</button>
+      <script>
+        $(document).ready(function() {
+          $("#herp").click(function () {
+            $("h1").show();
+          });
+        });
+      </script>
+
+    </div>
+  </nav>
+
+  <div class="row">
+    <div class="col-md-3">
+      <strong style>Home Page Summary</strong>
+
+      <div id="left">
+        <p>Javascript lets you add all sorts of events to web pages.</p>
+
+        <p>Hopefully we can get the content we want using AJAX .get() method</p>
+      </div>
+
+      <button id="huehue">get some stuff</button>
+
+      <script>
+        $(document).ready(function() {
+          $("#huehue").click(function(){
+            $.get("http://courses.ics.hawaii.edu/ics415f15/morea/040.javascript/ic-w5c2.html", function(data, status){
+              alert("Data: " + data + "\nStatus: " + status);
+            });
+          });
+        });
+
+      </script>
+
+    </div>
+
+
+    <div class="col-md-9">
+      <h2>Home Page</h2>
+
+
+      <div id="furball">
+
+        <div id="load">Maybe we can load stuff here?</div>
+
+        <button id="omg">load it!</button>
+
+        <script>
+          $(document).ready(function() {
+            $("#omg").click(function(){
+              console.log("text");
+              $("#load").load("http://courses.ics.hawaii.edu/ics415f15/morea/040.javascript/ic-w5c2.html");
+            });
+          });
+        </script>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="page-footer" style="height: 50px">
+    Copyright (C) Michele Takasato
+  </div>
+
+  </TABLE>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</div>
+</body>
+</html>
