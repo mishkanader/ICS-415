@@ -39,7 +39,7 @@
       <div id="left">
         <p>Javascript lets you add all sorts of events to web pages.</p>
 
-        <p>MouseOut event to align text to the right.</p>
+        <p>Mouseenter event to change the background of the div to yellow.</p>
       </div>
 
       <script>
@@ -62,13 +62,15 @@
       <p>Uploaded a picture from Wikipedia of a chinchilla to play with images.</p>
       <p>mouse over me to shrink me!</p>
       <div id="pic" \>
-        <img onmouseover="func2(this)" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Standardchinchilla.jpg">
+        <img id="nast" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Standardchinchilla.jpg">
 
         <script>
-          function func2(x){
-            x.style.width="150px";
-            x.style.height="100px";
-          }
+          $(document).ready(function() {
+            $("#nast").mouseleave(function () {
+              nast.style.width="150px";
+              nast.style.height="100px";
+            });
+          });
         </script>
 
       </div>
